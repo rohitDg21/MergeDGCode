@@ -89,6 +89,22 @@ class Footer extends HTMLElement {
                 </span>
                 #39, NGEF Lane, 2nd Floor, Suite No.1209, Indiranagar, Bangalore, Karnataka, India,560038
               </h3>
+
+              <h3 class="address-h3 text-white-h1 OfficeLocationKolkata">
+                <span class="flag">
+                <img src="assets/images/icon/phone.svg" alt="phone" height="100px" width="100px">
+                </span>
+                080-25043221 <br> 
+                +91-8757034585
+              </h3>
+
+              <h3 class="address-h3 text-white-h1 OfficeLocationKolkata">
+                <span class="flag">
+                <img src="assets/images/icon/email.svg" alt="email" height="100px" width="100px">
+                </span>
+                info@dgtroops.com <br>
+                training@dgtroops.com
+              </h3>
                      
                     
                 </div>
@@ -313,12 +329,28 @@ class servicefooter extends HTMLElement {
                         <h4 class="address-h4 text-white-h1" style="font-size:50px;">Visit us at</h4>
 
                                                    
-              <h3 class="address-h3 text-white-h1 OfficeLocationKolkata">
-                <span class="flag">
-                  <img src="../../assets/images/icon/Flag-India.svg" alt="Indian Flag" height="100px" width="100px">
-                </span>
-                #39, NGEF Lane, 2nd Floor, Suite No.1209, Indiranagar, Bangalore, Karnataka, India,560038
-              </h3>
+                        <h3 class="address-h3 text-white-h1 OfficeLocationKolkata">
+                        <span class="flag">
+                          <img src="../../assets/images/icon/Flag-India.svg" alt="Indian Flag" height="100px" width="100px">
+                        </span>
+                        #39, NGEF Lane, 2nd Floor, Suite No.1209, Indiranagar, Bangalore, Karnataka, India,560038
+                      </h3>
+        
+                      <h3 class="address-h3 text-white-h1 OfficeLocationKolkata">
+                        <span class="flag">
+                        <img src="../../assets/images/icon/phone.svg" alt="phone" height="100px" width="100px">
+                        </span>
+                        080-25043221 <br> 
+                        +91-8757034585
+                      </h3>
+        
+                      <h3 class="address-h3 text-white-h1 OfficeLocationKolkata">
+                        <span class="flag">
+                        <img src="../../assets/images/icon/email.svg" alt="email" height="100px" width="100px">
+                        </span>
+                        info@dgtroops.com <br>
+                        training@dgtroops.com
+                      </h3>
                      
                     
                 </div>

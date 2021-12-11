@@ -35,14 +35,14 @@ class Header extends HTMLElement {
                 <ul class="mobile-dropdown-list">
                   <li><a class="mobile-dropdown-item" href="services/digital-marketing/index.html">Digital Marketing</a></li>
                   <!-- <li><a class="mobile-dropdown-item" href="how-we-work">How we work</a></li> -->
-                  <li><a class="mobile-dropdown-item" href="#">Web Design and Devlopment</a></li>
+                  <li><a class="mobile-dropdown-item" href="services/web development/index.html">Web Design and Devlopment</a></li>
                   <li><a class="mobile-dropdown-item" href="#">Data Research and Analysis</a></li>
                   <li><a class="mobile-dropdown-item" href="#">Software-Devlopment and Testing</a></li>
                   <li><a class="mobile-dropdown-item" href="#">Cloud Transformation and Services</a></li>
                   <li><a class="mobile-dropdown-item" href="#">Automation</a></li>
                   <li><a class="mobile-dropdown-item" href="#">IT Infrastructure Services</a></li>
                   <li><a class="mobile-dropdown-item" href="#">Consulting and Advisory</a></li>
-                  <li><a class="mobile-dropdown-item" href="#">Training and Devlopment</a></li>
+                  <li><a class="mobile-dropdown-item" href="services/trainingAndDevelopment/index.html">Training and Devlopment</a></li>
                 </ul>
               </li>
               <li class="dropdown-parent-li"><a href="how-we-work/index.html">How we work</a></li>
@@ -145,7 +145,7 @@ class Header extends HTMLElement {
                         <ul class="menu">
                           <li><a href="services/digital-marketing/index.html">Digital Marketing</a></li>
                           <!-- <li><a href="how-we-work">How we work</a></li> -->
-                          <li><a href="#">Web Design and Devlopment</a></li>
+                          <li><a href="services/web development/index.html">Web Design and Devlopment</a></li>
                           <li><a href="#">Data Research and Analysis</a></li>
                           <li><a href="#">Software-Devlopment and Testing</a></li>
                           <li><a href="#">Cloud Transformation and Services</a></li>
@@ -153,7 +153,7 @@ class Header extends HTMLElement {
                           <li><a href="#">IT Infrastructure Services</a></li>
                           <li><a href="#">Consulting and Advisory</a></li>
 
-                          <li><a href="#">Training and Devlopment</a></li>
+                          <li><a href="services/trainingAndDevelopment/index.html">Training and Devlopment</a></li>
                         </ul>
                       </div>
                       <!-- uipl-sub-menu-section -->
@@ -297,8 +297,7 @@ class serviceheader2 extends HTMLElement {
                     <li class="dropdown-parent-li"><a href="#">How we work</a></li>
                     <li class="dropdown-parent-li"><a class="mobile-dropdown" href="#">Portfolio</a> <span class="mobile-dropdown-arrow"></span>
                       <ul class="mobile-dropdown-list">
-                        <li><a class="mobile-dropdown-item" href="#">Projects</a></li>
-                        <li><a class="mobile-dropdown-item" href="#">UI/UX Gallery</a></li>
+                        <li><a class="mobile-dropdown-item" href="#">Coming Soon</a></li>
                       </ul>
                     </li>
                    <li class="dropdown-parent-li"><a href="../about/index.html">Company</a></li>
@@ -424,8 +423,7 @@ class serviceheader2 extends HTMLElement {
                           <!-- uipl-sub-menu-section -->
                           <div class="uipl-sub-menu-section">
                             <ul class="menu">
-                              <li><a href="#">Projects</a></li>
-                              <li><a href="#">UI/UX Gallery</a></li>
+                              <li><a href="#">Coming Soon</a></li>
                             </ul>
                           </div>
                           <!-- uipl-sub-menu-section -->

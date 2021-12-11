@@ -54269,3 +54269,10 @@ li.has-uipl-sub-menu.sub-menu-active .uipl-sub-menu-wraper {
 .container-fluid .logo {
     margin-left: -20px;
 }
+
+
+@media (max-width: 991.98px){
+.footer-wrap .address_info_left.black-bg-info {
+    background: #8bc;
+    padding: 4% 20px 85px 20px;
+}}
