@@ -45,7 +45,7 @@ class Header extends HTMLElement {
                   <li><a class="mobile-dropdown-item" href="services/trainingAndDevelopment/index.html">Training and Devlopment</a></li>
                 </ul>
               </li>
-              <li class="dropdown-parent-li"><a href="how-we-work/index.html">How we work</a></li>
+              <li class="dropdown-parent-li"><a href="#forProcess">How we work</a></li>
               <li class="dropdown-parent-li"><a class="mobile-dropdown" href="#">Portfolio</a> <span class="mobile-dropdown-arrow"></span>
                 <ul class="mobile-dropdown-list">
                   <li><a class="mobile-dropdown-item" href="#">Coming Soon</a></li>
@@ -161,7 +161,7 @@ class Header extends HTMLElement {
                   </div>
                   <!-- uipl-sub-menu-wraper -->
                   
-              <li class="nav-item"><a href="#our-process" class="nav-link">How we work</a></li>
+              <li class="nav-item"><a href="#forProcess" class="nav-link">How we work</a></li>
               <li class="nav-item has-uipl-sub-menu"><a class="nav-link dropdown-toggle" href="#">Portfolio <div class="uipl-sub-menu-arrow"><span></span></div></a>
                 <!-- uipl-sub-menu-wraper -->
                 <div class="uipl-sub-menu-wraper">
@@ -294,7 +294,7 @@ class serviceheader2 extends HTMLElement {
                   
                       </ul>
                     </li>
-                    <li class="dropdown-parent-li"><a href="#">How we work</a></li>
+                    <li class="dropdown-parent-li"><a href="#forStory">How we work</a></li>
                     <li class="dropdown-parent-li"><a class="mobile-dropdown" href="#">Portfolio</a> <span class="mobile-dropdown-arrow"></span>
                       <ul class="mobile-dropdown-list">
                         <li><a class="mobile-dropdown-item" href="#">Coming Soon</a></li>
@@ -410,7 +410,7 @@ class serviceheader2 extends HTMLElement {
                         </div>
                         <!-- uipl-sub-menu-wraper -->
                         
-                    <li class="nav-item"><a href="#" class="nav-link">How we work</a></li>
+                    <li class="nav-item"><a href="#forStory" class="nav-link">How we work</a></li>
                     <li class="nav-item has-uipl-sub-menu"><a class="nav-link dropdown-toggle" href="#">Portfolio <div class="uipl-sub-menu-arrow"><span></span></div></a>
                       <!-- uipl-sub-menu-wraper -->
                       <div class="uipl-sub-menu-wraper">
@@ -684,3 +684,4 @@ class serviceheader extends HTMLElement {
 }
 
 customElements.define('service-header', serviceheader);
+

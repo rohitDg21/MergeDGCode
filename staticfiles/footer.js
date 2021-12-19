@@ -94,7 +94,7 @@ class Footer extends HTMLElement {
                 <span class="flag">
                 <img src="assets/images/icon/phone.svg" alt="phone" height="100px" width="100px">
                 </span>
-                080-25043221 <br> 
+                +91-8025043221 <br> 
                 +91-8757034585
               </h3>
 
@@ -340,7 +340,7 @@ class servicefooter extends HTMLElement {
                         <span class="flag">
                         <img src="../../assets/images/icon/phone.svg" alt="phone" height="100px" width="100px">
                         </span>
-                        080-25043221 <br> 
+                        +91-8025043221 <br> 
                         +91-8757034585
                       </h3>
         
@@ -592,7 +592,7 @@ class aboutfooter extends HTMLElement {
                         <span class="flag">
                         <img src="../assets/images/icon/phone.svg" alt="phone" height="100px" width="100px">
                         </span>
-                        080-25043221 <br> 
+                        +91-8025043221 <br> 
                         +91-8757034585
                       </h3>
         

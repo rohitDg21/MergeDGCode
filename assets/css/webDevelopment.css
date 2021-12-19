@@ -1,4 +1,7 @@
 
+#whydg{
+  margin-bottom: 1vh;
+}
 
 .header-black::before{
     content: "";

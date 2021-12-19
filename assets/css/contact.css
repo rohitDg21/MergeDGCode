@@ -13,6 +13,15 @@
 }
 
 
+#forPadding{
+  padding: 0;
+}
+
+
+.copy-right {
+  text-align: end;
+}
+
 .footer-social{
 padding: 35px 20px;
 display: inline-block;

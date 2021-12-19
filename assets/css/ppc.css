@@ -6,6 +6,10 @@ p .vc_custom_heading{
     margin-bottom: 0;
 }
 
+#whydg{
+    margin-bottom: 100px;
+}
+
 .row {
     display: -ms-flexbox;
     display: flex;

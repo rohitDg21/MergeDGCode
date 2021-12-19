@@ -13,6 +13,11 @@
 }
 
 
+#forStory{
+    height: 1vw;
+}
+
+
 .row{
     justify-content: space-between;
 }
