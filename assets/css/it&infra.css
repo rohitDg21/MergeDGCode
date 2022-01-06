@@ -40,7 +40,7 @@
 
 
 .banner-main .page-title1 {
-    font-size: 5rem;
+    font-size: 10vh;
     color: #fff;
     line-height: 1;
     letter-spacing: 2px;
@@ -61,7 +61,7 @@
 .para{
     background-color: white;
     text-align: justify;
-    font-size: 1.6vw;
+    font-size: 2.6vh;
     padding: 0vw 8vw 2vh 8vw;
     line-height: 1.4;
 }
@@ -71,9 +71,13 @@
 
 }
 
+.banner-main {
+    margin-top: -56vh !important;
+}
+
 .paraTitle{
     background: white;
-    font-size: 3vw;
+    font-size: 5vh;
     text-align: center;
     padding-top: 3vw;
 }
@@ -142,3 +146,35 @@
 } */
 
 
+
+
+@media screen and (max-width:500px)  {
+    .service{
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .service2, .service1, .service3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 4vw 1vw;
+    }
+
+    .ser{
+        margin: 0;
+        width: 14vh;
+        width: 16vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .serviceTitle{
+        font-size: 1.6vh;
+    }
+    
+    
+}

@@ -103,7 +103,7 @@ class Header extends HTMLElement {
               <div class=col-md-12>
                 <a href="terms-conditions/index.html">Terms &amp; Conditions </a> <span class=gapNew> | </span> <a href="https://www.google.com/maps/search/%2339,+NGEF+Lane,+2nd+Floor,+Suite+No.1209,+Indiranagar,+Bangalore,+Karnataka+560038,+IN/@12.9779987,77.6374416,17z">Sitemap</a>
                 <div class="copyright-sec pb-0  text-center">
-                  <p>Copyright 2021 DIGITROOPS Services Inc. All rights reserved.</p>
+                  <p>Copyright 2022 DIGITROOPS Services Inc. All rights reserved.</p>
                 </div>
               
               </div>
@@ -350,7 +350,7 @@ class serviceheader2 extends HTMLElement {
                     <div class=col-md-12>
                       <a href="../terms-conditions/index.html">Terms &amp; Conditions </a> <span class=gapNew> | </span><a href="https://goo.gl/maps/Yh2j1xYevWTxYAtn7" target="_blank" >Sitemap</a>
                       <div class="copyright-sec pb-0  text-center">
-                        <p>Copyright 2021 DIGITROOPS Inc. All rights reserved.</p>
+                        <p>Copyright 2022 DIGITROOPS Inc. All rights reserved.</p>
                       </div>
                       
                     </div>
@@ -560,7 +560,7 @@ class serviceheader extends HTMLElement {
               <div class=col-md-12>
                 <a href="../terms-conditions/index.html">Terms &amp; Conditions </a> <span class=gapNew> | </span> <a href="sitemap/index.html">Sitemap</a>
                 <div class="copyright-sec pb-0  text-center">
-                  <p>Copyright 2021 Digitroops Inc. All rights reserved.</p>
+                  <p>Copyright 2022 Digitroops Inc. All rights reserved.</p>
                 </div>
                
               </div>

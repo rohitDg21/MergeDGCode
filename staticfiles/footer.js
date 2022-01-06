@@ -162,7 +162,7 @@ class Footer extends HTMLElement {
                 </ul>
                 <!-- footer-copyright-menu -->
                 <!-- footer-copyright-note -->
-                <p class="footer-copyright-note">&copy; 2021 DIGITROOPS Services Inc. All rights reserved.</p>
+                <p class="footer-copyright-note">&copy; 2022 DIGITROOPS Services Inc. All rights reserved.</p>
                 <!-- footer-copyright-note -->
             </div>
             <!-- footer-copyright-item -->
@@ -195,7 +195,7 @@ class Footer extends HTMLElement {
         </div>
         
         <div class="copy-right">
-            <p>&copy; 2021 Digitroops Services Pvt Ltd. All rights reserved.</p>
+            <p>&copy; 2022 Digitroops Services Pvt Ltd. All rights reserved.</p>
         </div>
         
  
@@ -408,7 +408,7 @@ class servicefooter extends HTMLElement {
                 </ul>
                 <!-- footer-copyright-menu -->
                 <!-- footer-copyright-note -->
-                <p class="footer-copyright-note">&copy; 2021 DIGITROOPS Services Inc. All rights reserved.</p>
+                <p class="footer-copyright-note">&copy; 2022 DIGITROOPS Services Inc. All rights reserved.</p>
                 <!-- footer-copyright-note -->
             </div>
             <!-- footer-copyright-item -->
@@ -446,7 +446,7 @@ class servicefooter extends HTMLElement {
         </div>
         
         <div class="copy-right">
-            <p>&copy; 2021 Digitroops Services Pvt Ltd. All rights reserved.</p>
+            <p>&copy; 2022 Digitroops Services Pvt Ltd. All rights reserved.</p>
         </div>
         
  
@@ -660,7 +660,7 @@ class aboutfooter extends HTMLElement {
                 </ul>
                 <!-- footer-copyright-menu -->
                 <!-- footer-copyright-note -->
-                <p class="footer-copyright-note">&copy; 2021 DIGITROOPS Services Inc. All rights reserved.</p>
+                <p class="footer-copyright-note">&copy; 2022 DIGITROOPS Services Inc. All rights reserved.</p>
                 <!-- footer-copyright-note -->
             </div>
             <!-- footer-copyright-item -->
@@ -698,7 +698,7 @@ class aboutfooter extends HTMLElement {
         </div>
         
         <div class="copy-right">
-            <p>&copy; 2021 Digitroops Services Pvt Ltd. All rights reserved.</p>
+            <p>&copy; 2022 Digitroops Services Pvt Ltd. All rights reserved.</p>
         </div>
         
  
