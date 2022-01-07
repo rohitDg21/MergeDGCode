@@ -286,7 +286,7 @@ class serviceheader2 extends HTMLElement {
                         <!-- <li><a class="mobile-dropdown-item" href="how-we-work">How we work</a></li> -->
                         <li><a class="mobile-dropdown-item" href="../services/web development/index.html">Web Devlopment and Design</a></li>
                         <li><a class="mobile-dropdown-item" href="#">Data Research and Analysis</a></li>
-                        <li><a class="mobile-dropdown-item" href="#">Cloud Transformation and services</a></li>
+                        <li><a class="mobile-dropdown-item" href="#">Cloud Transformation and Services</a></li>
                         <li><a class="mobile-dropdown-item" href="#">Automation</a></li>
                         <li><a class="mobile-dropdown-item" href="../services/it&infrastructure/index.html">IT Infrastructure</a></li>
                         <li><a class="mobile-dropdown-item" href="#">Advisory and Consultancy</a></li>
@@ -396,10 +396,10 @@ class serviceheader2 extends HTMLElement {
                                 <!-- <li><a href="how-we-work">How we work</a></li> -->
                                 <li><a href="../services/web development/index.html">Web Devlopment and Design</a></li>
                                 <li><a href="#">Data Research and Analysis</a></li>
-                                <li><a href="#">Cloud Transformation and services</a></li>
+                                <li><a href="#">Cloud Transformation and Services</a></li>
                                 <li><a href="#">Software-Devlopment and Testing</a></li>
                                 <li><a href="#">Automation</a></li>
-                                 <li><a href="../services/it&infrastructure/index.html">It Infrastructure Services</a></li>
+                                 <li><a href="../services/it&infrastructure/index.html">IT Infrastructure Services</a></li>
                                 <li><a href="#">Advisory and Consultancy</a></li>
                                 <li><a href="../services/trainingAndDevelopment/index.html">Training and Devlopment</a></li>
       
@@ -499,7 +499,7 @@ class serviceheader extends HTMLElement {
                   <!-- <li><a class="mobile-dropdown-item" href="how-we-work">How we work</a></li> -->
                   <li><a class="mobile-dropdown-item" href="../../services/web development/index.html">Web Design and Development</a></li>
                   <li><a class="mobile-dropdown-item" href="#">Data Research and Testing</a></li>
-                  <li><a class="mobile-dropdown-item" href="#">Cloud Transformation and services</a></li>
+                  <li><a class="mobile-dropdown-item" href="#">Cloud Transformation and Services</a></li>
                   <li><a class="mobile-dropdown-item" href="#">Automation</a></li>
                   <li><a class="mobile-dropdown-item" href="../../services/it&infrastructure/index.html">IT Infrastructure</a></li>
                   <li><a class="mobile-dropdown-item" href="#">Advisory and Consultancy</a></li>
@@ -604,7 +604,7 @@ class serviceheader extends HTMLElement {
                           <!-- <li><a href="how-we-work">How we work</a></li> -->
                           <li><a href="../../services/web development/index.html">Web Design and Development</a></li>
                           <li><a href="#">Data Research and Testing</a></li>
-                          <li><a href="#">Cloud Transformation and services</a></li>
+                          <li><a href="#">Cloud Transformation and Services</a></li>
                           <li><a href="#">Automation</a></li>
                           <li><a href="../../services/it&infrastructure/index.html">IT Infrastructure</a></li>
                           <li><a href="#">Advisory and Consultancy</a></li>

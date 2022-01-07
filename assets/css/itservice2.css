@@ -143,3 +143,89 @@
 
 }
 
+@media screen and (max-width:500px)  {
+
+    .pTitle{
+        font-size: 7vh;
+        width: auto;
+        margin: 1vw;
+        margin-bottom: 6vh;
+
+    }
+
+    .pHeading{
+        flex-direction: column;
+    }
+
+    .pImg{
+        width: 45vh;
+        height: auto;
+    }
+
+   
+    .pHeading{
+        align-items: center;
+        padding: 7vw 5vw 5vw 5vw ;
+    }
+
+    .pPara{
+
+        margin-top: 5vh;
+        margin-bottom: 5vw;
+        font-size: 4vh;
+        text-align: left;
+    }
+    
+    .pHeading2{
+        padding: 7vw 5vw 5vw 5vw;
+    }
+
+    .line{
+        display: none;
+    }
+
+    .benefits{
+        margin: 4vw;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .benefit{
+        width: 47vw;
+        font-size: 3.2vh;
+        margin: 4vh 0;
+    }
+
+    .featureComponent{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .featureImg{
+        width: auto;
+        height: 52vw;
+    }
+
+    .features{
+        margin-left: 0;
+    }
+
+    .fea{
+        width: 62vw;
+        font-size: 6.2vw;
+
+    }
+
+    .servP{
+        width: auto;
+    }
+
+    .feas{
+        font-size: 4.5vw;
+    }
+
+  
+
+    
+}
