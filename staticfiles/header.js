@@ -19,7 +19,6 @@ class Header extends HTMLElement {
         <div class="nav-menu-header-inr d-flex align-items-center justify-content-between">
           <div class=logo-icon>
             <a href="index.html"><img src="assets/images/logo.png" alt=logo></a>
-
           </div>
         </div>
       </div>
@@ -38,7 +37,7 @@ class Header extends HTMLElement {
                   <li><a class="mobile-dropdown-item" href="services/web development/index.html">Web Design and Devlopment</a></li>
                   <li><a class="mobile-dropdown-item" href="#">Data Research and Analysis</a></li>
                   <li><a class="mobile-dropdown-item" href="#">Software-Devlopment and Testing</a></li>
-                  <li><a class="mobile-dropdown-item" href="#">Cloud Transformation and Services</a></li>
+                  <li><a class="mobile-dropdown-item" href="services/cloudT&S/index.html">Cloud Transformation and Services</a></li>
                   <li><a class="mobile-dropdown-item" href="#">Automation</a></li>
                   <li><a class="mobile-dropdown-item" href="services/it&infrastructure/index.html">IT Infrastructure Services</a></li>
                   <li><a class="mobile-dropdown-item" href="#">Consulting and Advisory</a></li>
@@ -148,7 +147,7 @@ class Header extends HTMLElement {
                           <li><a href="services/web development/index.html">Web Design and Devlopment</a></li>
                           <li><a href="#">Data Research and Analysis</a></li>
                           <li><a href="#">Software-Devlopment and Testing</a></li>
-                          <li><a href="#">Cloud Transformation and Services</a></li>
+                          <li><a href="services/cloudT&S/index.html">Cloud Transformation and Services</a></li>
                           <li><a href="#">Automation</a></li>
                           <li><a href="services/it&infrastructure/index.html">IT Infrastructure Services</a></li>
                           <li><a href="#">Consulting and Advisory</a></li>
@@ -286,7 +285,7 @@ class serviceheader2 extends HTMLElement {
                         <!-- <li><a class="mobile-dropdown-item" href="how-we-work">How we work</a></li> -->
                         <li><a class="mobile-dropdown-item" href="../services/web development/index.html">Web Devlopment and Design</a></li>
                         <li><a class="mobile-dropdown-item" href="#">Data Research and Analysis</a></li>
-                        <li><a class="mobile-dropdown-item" href="#">Cloud Transformation and Services</a></li>
+                        <li><a class="mobile-dropdown-item" href="../services/cloudT&S/index.html">Cloud Transformation and Services</a></li>
                         <li><a class="mobile-dropdown-item" href="#">Automation</a></li>
                         <li><a class="mobile-dropdown-item" href="../services/it&infrastructure/index.html">IT Infrastructure</a></li>
                         <li><a class="mobile-dropdown-item" href="#">Advisory and Consultancy</a></li>
@@ -396,7 +395,7 @@ class serviceheader2 extends HTMLElement {
                                 <!-- <li><a href="how-we-work">How we work</a></li> -->
                                 <li><a href="../services/web development/index.html">Web Devlopment and Design</a></li>
                                 <li><a href="#">Data Research and Analysis</a></li>
-                                <li><a href="#">Cloud Transformation and Services</a></li>
+                                <li><a href="../services/cloudT&S/index.html">Cloud Transformation and Services</a></li>
                                 <li><a href="#">Software-Devlopment and Testing</a></li>
                                 <li><a href="#">Automation</a></li>
                                  <li><a href="../services/it&infrastructure/index.html">IT Infrastructure Services</a></li>
@@ -499,7 +498,7 @@ class serviceheader extends HTMLElement {
                   <!-- <li><a class="mobile-dropdown-item" href="how-we-work">How we work</a></li> -->
                   <li><a class="mobile-dropdown-item" href="../../services/web development/index.html">Web Design and Development</a></li>
                   <li><a class="mobile-dropdown-item" href="#">Data Research and Testing</a></li>
-                  <li><a class="mobile-dropdown-item" href="#">Cloud Transformation and Services</a></li>
+                  <li><a class="mobile-dropdown-item" href="../../services/cloudT&S/index.html">Cloud Transformation and Services</a></li>
                   <li><a class="mobile-dropdown-item" href="#">Automation</a></li>
                   <li><a class="mobile-dropdown-item" href="../../services/it&infrastructure/index.html">IT Infrastructure</a></li>
                   <li><a class="mobile-dropdown-item" href="#">Advisory and Consultancy</a></li>
@@ -579,9 +578,7 @@ class serviceheader extends HTMLElement {
       <a class="navbar-brand logo-light" href="../../index.html">
         <img class="logo" src="../../assets/images/logo.png" alt="DIGITROOPS Logo White"  >
       </a>
-      <a class="navbar-brand logo-dark" href="../../index.html">
-        <img class="logo" src="../../assets/images/logo.png" alt="DIGITROOPS Logo Dark"  >
-      </a>
+    
       <div class="ml-auto main-navbar-content">
         <div class="collapse navbar-collapse main-bottom-navbar" id=navbarTogglerDemo01>
 
@@ -604,7 +601,7 @@ class serviceheader extends HTMLElement {
                           <!-- <li><a href="how-we-work">How we work</a></li> -->
                           <li><a href="../../services/web development/index.html">Web Design and Development</a></li>
                           <li><a href="#">Data Research and Testing</a></li>
-                          <li><a href="#">Cloud Transformation and Services</a></li>
+                          <li><a href="../../services/cloudT&S/index.html">Cloud Transformation and Services</a></li>
                           <li><a href="#">Automation</a></li>
                           <li><a href="../../services/it&infrastructure/index.html">IT Infrastructure</a></li>
                           <li><a href="#">Advisory and Consultancy</a></li>
