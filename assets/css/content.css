@@ -1,0 +1,778 @@
+.header-black::before{
+    content: "";
+    background: url("../images/content/influencer-g3c0a04ec6_1920.jpg") no-repeat center center/cover;
+    position: absolute;
+    background-size: cover;
+    width: 100%;
+    height: 100%; 
+    z-index: -1;
+    /* filter: brightness(0.94); */
+    top: 0;
+    left: 0;
+    opacity:0.75;
+    /* filter: brightness(0.5); */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(1.5px);
+}
+
+
+
+
+
+/* --------------------------------------------------------------------------------------------------- */
+
+
+.featureImage{
+    background: url(../../assets/images/content/entrepreneur-g7eb3f81fa_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40vw;
+}
+
+.phImg1{
+    background: url(../../assets/images/content/entrepreneur-g7eb3f81fa_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.phImg2{
+    background: url(../../assets/images/content/cost-g62f7109cb_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    
+}
+
+.phImg3{
+    background: url(../../assets/images/content/hand-g9ee3537ee_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    
+}
+
+.phImg4{
+    background: url(../../assets/images/content/content-marketing-gba2288e05_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+
+
+
+
+.feas13{
+    visibility: hidden;
+}
+
+.pHeading{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 7vw 0 5vw 5vw;
+}
+
+.line{
+    border-left: 4vh solid black;
+    height: auto;
+    width: 9vw;
+}
+
+
+.pHeading2{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 7vw 0 5vw 5vw;
+}
+
+
+.pTitle{
+    width: 48vw;
+    font-size: 5vw;
+    font-weight: bolder;
+    margin-right: 3vw;
+    line-height: 1.2;
+    
+}
+
+.banner-main .page-title1{
+    width: 100vh;
+}
+
+
+.pPara{
+    font-size: 2.5vw;
+    width: 80vw;
+    font-weight:100;
+    text-align: justify;
+}
+
+.pTitle1{
+    color: tomato;
+}
+
+.pPara1{
+    color: black;
+}
+.pImg{
+    width: 45vw;
+    height: 30vw;
+}
+
+
+
+.benefits{
+    display:flex ;
+    justify-content: center;
+    margin: 4vw;
+    
+}
+
+
+.benefit{
+    width: 16vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 2vw;
+
+    margin: 0 4vw;
+}
+
+.fea{
+    width: 35vw;
+    font-size: 2.2vw;
+    cursor: pointer;
+    text-align: center;
+    border-bottom: 1px solid rgb(213 205 205);
+    color: #4f4f93;
+    margin: 2vw 0;
+    background: aliceblue;
+}
+
+
+.feas{
+    display: none;
+    color: black;
+    font-size: 2vw;
+    text-align: left;
+    margin-left: 6vw;
+}
+
+.featureImg{
+    
+    width: 40vw;
+    height: 30vw;
+}
+
+.featureComponent{
+    display: flex;
+    
+}
+
+
+
+
+.servP{
+    width: 30vw;
+    margin-left: 2vw;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.features{
+    /* margin: 4vw 0; */
+    margin: 4vw 0 4vw 4vw;
+}
+
+.be2{
+    padding: 0 2vw;
+}
+
+
+.featureImage{
+    margin: 5vw;
+    
+}
+
+
+.featImg{
+    width: 50vw;
+    margin-top: 7vw;
+}
+
+.ppp{
+    background: white;
+    font-size: 4vh;
+    text-align: center;
+    padding-top: 3vw;
+    /* font-weight: 700; */
+}
+
+.feasfeas{
+    color: #6c6969;
+    font-size: 1.9vw;
+    text-align: initial;
+    margin-left: 2vw;
+}
+@media screen and (max-width:500px)  {
+    
+    .pTitle{
+        font-size: 7vh;
+        width: auto;
+        margin: 0;
+        margin-bottom: 6vh;
+        
+    }
+    
+    .pHeading{
+        flex-direction: column;
+    }
+    
+    .pImg{
+        width: 45vh;
+        height: auto;
+    }
+    
+    
+    .pHeading{
+        align-items: center;
+        padding: 7vw 5vw 5vw 5vw ;
+    }
+    
+    .pPara{
+        
+        font-size: 4vh;
+        text-align: justify;
+    }
+    
+    .pHeading2{
+        padding: 7vw 5vw 5vw 5vw;
+    }
+    
+    .line{
+        display: none;
+    }
+    
+    .benefits{
+        margin: 4vw;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .benefit{
+        width: 47vw;
+        font-size: 3.2vh;
+        margin: 4vh 0;
+    }
+
+    .featureComponent{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .featureImg{
+        width: auto;
+        height: 52vw;
+    }
+
+    .features{
+        margin-left: 0;
+    }
+
+    .fea{
+        width: 62vw;
+        font-size: 6.2vw;
+
+    }
+
+    .servP{
+        width: auto;
+    }
+
+    .feas{
+        font-size: 4.5vw;
+    }
+
+    .banner-main .page-title1{
+        width: auto;
+    }
+
+    
+}
+
+
+
+
+
+/* --------------------------------------------------------------------------------------------------------- */
+.row{
+    justify-content: space-between;
+    
+}
+
+body {
+    background-color: #fdf9fd;
+    color: #011a32;
+    font: 16px/1.25 'Raleway', sans-serif;
+    text-align: center;
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80em;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    float: left;
+
+    text-align: center;
+    justify-content: center;
+    /* min-height: 100vh; */
+    /* justify-content: initial; */
+    padding: 1em;
+    width: 80vw;
+}
+
+
+h1 {
+
+    color: rgb(87, 87, 87);
+    animation: text-shadow 4s ease-in-out 2s  infinite;
+    font-size: 5em;
+    font-weight: 900;
+    line-height: 1;
+}
+
+h1:hover {
+    animation-play-state: paused;
+}
+
+a {
+    color: #024794;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+@keyframes text-shadow {
+    0% {  
+        transform: translateY(0);
+        text-shadow: 
+            0 0 0 #0c2ffb, 
+            0 0 0 #2cfcfd, 
+            0 0 0 #fb203b, 
+            0 0 0 #fefc4b;
+    }
+
+    20% {  
+        transform: translateY(-1em);
+        text-shadow: 
+            0 0.125em 0 #0c2ffb, 
+            0 0.25em 0 #2cfcfd, 
+            0 -0.125em 0 #fb203b, 
+            0 -0.25em 0 #fefc4b;
+    }
+
+    40% {  
+        transform: translateY(0.5em);
+        text-shadow: 
+            0 -0.0625em 0 #0c2ffb, 
+            0 -0.125em 0 #2cfcfd, 
+            0 0.0625em 0 #fb203b, 
+            0 0.125em 0 #fefc4b;
+    }
+    
+   60% {
+        transform: translateY(-0.25em);
+        text-shadow: 
+            0 0.03125em 0 #0c2ffb, 
+            0 0.0625em 0 #2cfcfd, 
+            0 -0.03125em 0 #fb203b, 
+            0 -0.0625em 0 #fefc4b;
+    }
+
+    80% {  
+        transform: translateY(0);
+        text-shadow: 
+            0 0 0 #0c2ffb, 
+            0 0 0 #2cfcfd, 
+            0 0 0 #fb203b, 
+            0 0 0 #fefc4b;
+    }
+}
+
+
+.fee{
+    width: 45vw !important;
+}
+
+
+.ff:hover{
+    background: #cfd8dc;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+      animation: none !important;
+      transition: none !important;
+    }
+}
+
+
+
+.bgImageContainer{
+    height: 85vh;
+}
+
+
+.ImageColumn{
+    margin: 7vw 0;
+    background: url(/assets/images/cloudT&S/architecture-gef72ea486_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15vw;
+    /* filter: brightness(0.4); */
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.para{
+    background-color: white;
+
+   
+    padding: 0vw 8vw 2vh 8vw;
+    line-height: 1.6;
+    margin-top: 0%;
+    /* width: 71%; */
+    text-align: justify;
+    /* font-size: 3.1vh; */
+    font-size: 3vh;
+    
+}
+
+
+.commontext h1{
+    opacity: 1 !important;
+    /* width: min-content; */
+    font-size: 6vw;
+    font-weight: 600;
+    font-family: -webkit-pictograph;
+    color: #4a4643;
+}
+
+
+.para1{
+    padding-top: 6vh;
+    
+}
+
+.banner-main {
+        margin-top: -65vh !important;
+}
+
+.paraTitle{
+    background: white;
+    font-size: 5vh;
+    text-align: center;
+    padding-top: 3vw;
+    font-weight: 700;
+}
+
+
+.banner-main {
+    margin-top: -37vw 0px;
+}
+
+
+.paraT{
+    
+    margin-top: 9vw;
+}
+
+
+
+.banner-main .page-title1 {
+    font-size: 10vh;
+    color: #fff;
+    line-height: 1;
+    letter-spacing: 2px;
+    opacity: 1;
+}
+.dn{
+    display: none;
+}
+
+.db{
+    display: block;
+}
+
+
+@media screen and (max-width:500px)  {
+    .service{
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .service2, .service1, .service3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 4vw 1vw;
+    }
+
+    .ser{
+        margin: 0;
+        width: 14vh;
+        width: 16vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .serviceTitle{
+        font-size: 1.6vh;
+    }
+    
+    
+}
+
+
+
+.paraImg{
+    border-radius: 50%;
+    width: 20vw;
+    height: 20vw;
+}
+
+
+.allala{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.imgImg{
+    
+    margin-right: 4vw;
+
+    
+    width: -webkit-fill-available;
+    margin-top: 11vw;
+
+}
+
+
+.imgImg2{
+    margin-left: 4vw;
+
+    width: -webkit-fill-available;
+    /* margin-top: 11vw; */
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+
+
+}
+
+
+
+
+.imgCloud{
+    height: 26vh;
+}
+
+
+
+
+.TitleT{
+    font-size: 6vh;
+    text-align: center;
+}
+
+
+
+.Partners{
+    margin: 5vw;
+    padding: 0 3vw;
+}
+
+.TitleTT{
+    padding-top: 5vw;
+}
+.pppi{
+    width: 20vw;
+    margin: 0 5vw;
+    height: 12vw;
+}
+
+
+.partImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vw;
+    
+}
+
+
+
+
+@media screen and (max-width:780px)  {
+    
+        .partImg{
+            flex-direction: column;
+        }
+        #aboutTitle{
+            font-size: 8vh;
+        }
+
+
+        .pppi{
+            width: 46vw;
+    margin: 0 5vw;
+    height: 46vw;
+    margin-top: 11vw;
+        }
+    .container{
+        padding-top: 0 !important;
+    }
+
+    .TitleTT{
+        padding-top: 30vw;
+    }
+    
+    
+    .allala{
+        flex-direction: column;
+    }
+    
+    
+    .paraImg{
+        width: 50vw;
+        height: 50vw;
+    }
+
+
+    .fea{
+        width: 85vw !important;
+    }
+    
+    .feasfeas{
+   
+            font-size: 6.5vw !important;
+   
+    }
+
+
+    .commontext h1{
+        opacity: 1 !important;
+        /* width: min-content; */
+        font-size: 14vw;
+        font-weight: 600;
+        font-family: -webkit-pictograph;
+        color: #4a4643;
+    
+    }
+    #container{
+        width: 100vw;
+        text-align: initial;
+    }
+
+
+    .phImg1, .phImg2, .phImg3, .phImg4{
+        width: 80vw;
+        height: 65vw;
+    }
+
+
+    .paraTitle {
+        background: white;
+        font-size: 3vh;
+        text-align: center;
+        padding-top: 3vw;
+        font-weight: 700;
+        margin: 13vw 8vw 0px 8vw;
+    }
+
+
+    .ppp {
+        background: white;
+        font-size: 3vh;
+        text-align: center;
+        padding-top: 3vw;
+        /* font-weight: 700; */
+        margin: 0 8vw 10vw 8vw;
+    }
+
+    .paraImg{
+        display: none;
+    }
+
+    .featImg {
+        width: 85vw;
+        margin-top: 7vw;
+    }
+    
+    
+    
+    
+    .imgCloud{
+        height: 16vh;
+    }
+    .TitleT {
+        font-size: 8vw;
+        text-align: center;
+    }
+    .ImageColumn{
+        font-size: 6vw;
+    }
+    
+    
+}
+
+
+@media screen and (max-width:1100px) {
+    .allala{
+        flex-direction: column;
+    }
+    
+    .paraImg{
+        width: 35vw;
+        height: 35vw;
+    }
+    
+    .imgImg{
+        
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5vw;
+    
+    }
+    
+    
+}

@@ -11,6 +11,9 @@
     left: 0;
     opacity:0.75;
     filter: brightness(0.5);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .row{
@@ -20,6 +23,12 @@
 .bgImageContainer{
     height: 85vh;
 }
+
+
+.button-5{
+    text-decoration: none !important;
+}
+
 
 
 .ImageColumn{
@@ -62,7 +71,7 @@
 }
 
 .banner-main {
-        margin-top: -58vh !important;
+        margin-top: -40vh !important;
 }
 
 .paraTitle{
@@ -90,13 +99,71 @@
     opacity: 1;
 }
 
+h1{
+    font-size: 3em;
+    font-weight: normal;
+}
+
+
+
+.home-title span{
+    position: relative;
+    overflow: hidden;
+    display: block;
+    line-height: 1.2;
+}
+
+.home-title span::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    animation: a-ltr-after 2s cubic-bezier(.77,0,.18,1) forwards;
+    transform: translateX(-101%);
+}
+
+.home-title span::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--bg-color);
+    animation: a-ltr-before 2s cubic-bezier(.77,0,.18,1) forwards;
+    transform: translateX(0);
+}
+
+.home-title span:nth-of-type(1)::before,
+.home-title span:nth-of-type(1)::after{
+    animation-delay: 1s;
+}
+
+.home-title span:nth-of-type(2)::before,
+.home-title span:nth-of-type(2)::after{
+    animation-delay: 1.5s;
+}
+
+@keyframes a-ltr-after{
+    0% {transform: translateX(-100%)}
+    100% {transform: translateX(101%)}
+}
+
+@keyframes a-ltr-before{
+    0% {transform: translateX(0)}
+    100% {transform: translateX(200%)}
+}
+
 
 @media screen and (max-width:500px)  {
     .service{
         flex-direction: column;
         margin: 0;
     }
-
+    
     .service2, .service1, .service3{
         display: flex;
         flex-direction: row;
@@ -104,7 +171,7 @@
         align-items: center;
         margin: 4vw 1vw;
     }
-
+    
     .ser{
         margin: 0;
         width: 14vh;
@@ -114,7 +181,7 @@
         justify-content: center;
         align-items: center;
     }
-
+    
     .serviceTitle{
         font-size: 1.6vh;
     }
@@ -134,14 +201,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    
 }
 
 
 .imgImg{
     
     margin-right: 4vw;
-
+    
     
     width: -webkit-fill-available;
     margin-top: 11vw;
@@ -151,15 +218,15 @@
 
 .imgImg2{
     margin-left: 4vw;
-
+    
     width: -webkit-fill-available;
     /* margin-top: 11vw; */
     display: flex;
     height: 100%;
     align-items: center;
     justify-content: flex-end;
-
-
+    
+    
 }
 
 
@@ -203,30 +270,37 @@
 }
 
 
+.dn{
+    display: none;
+}
+
+.db{
+    display: block;
+}
 
 
 @media screen and (max-width:780px)  {
     
-        .partImg{
-            flex-direction: column;
-        }
-        #aboutTitle{
+    .partImg{
+        flex-direction: column;
+    }
+    #aboutTitle{
             font-size: 8vh;
         }
-
+        
 
         .pppi{
             width: 46vw;
     margin: 0 5vw;
     height: 46vw;
     margin-top: 11vw;
-        }
-    .container{
-        padding-top: 0 !important;
-    }
+}
+.container{
+    padding-top: 0 !important;
+}
 
-    .TitleTT{
-        padding-top: 30vw;
+.TitleTT{
+    padding-top: 30vw;
     }
     
     
@@ -268,7 +342,7 @@
         width: 35vw;
         height: 35vw;
     }
-   
+    
     .imgImg{
         
         display: flex;
