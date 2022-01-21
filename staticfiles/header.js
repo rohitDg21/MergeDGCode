@@ -40,7 +40,7 @@ class Header extends HTMLElement {
                   <li><a class="mobile-dropdown-item" href="services/cloudT&S/index.html">Cloud Transformation and Services</a></li>
                   <li><a class="mobile-dropdown-item" href="#">Automation</a></li>
                   <li><a class="mobile-dropdown-item" href="services/it&infrastructure/index.html">IT Infrastructure Services</a></li>
-                  <li><a class="mobile-dropdown-item" href="#">Consulting and Advisory</a></li>
+                  <li><a class="mobile-dropdown-item" href="services/consultancyAndAdvisory/indexx.html">Consulting and Advisory</a></li>
                   <li><a class="mobile-dropdown-item" href="services/trainingAndDevelopment/index.html">Training and Devlopment</a></li>
                 </ul>
               </li>
@@ -56,6 +56,7 @@ class Header extends HTMLElement {
           </nav>
           <!-- mobile-menu -->
         </div>
+        
         <!-- mobile view social media links -->
         <div class=mobile-menu-endsec>
           <div class=nav-menu-bottom>
@@ -150,7 +151,7 @@ class Header extends HTMLElement {
                           <li><a href="services/cloudT&S/index.html">Cloud Transformation and Services</a></li>
                           <li><a href="#">Automation</a></li>
                           <li><a href="services/it&infrastructure/index.html">IT Infrastructure Services</a></li>
-                          <li><a href="#">Consulting and Advisory</a></li>
+                          <li><a href="services/consultancyAndAdvisory/indexx.html">Consulting and Advisory</a></li>
 
                           <li><a href="services/trainingAndDevelopment/index.html">Training and Devlopment</a></li>
                         </ul>
@@ -288,7 +289,7 @@ class serviceheader2 extends HTMLElement {
                         <li><a class="mobile-dropdown-item" href="../services/cloudT&S/index.html">Cloud Transformation and Services</a></li>
                         <li><a class="mobile-dropdown-item" href="#">Automation</a></li>
                         <li><a class="mobile-dropdown-item" href="../services/it&infrastructure/index.html">IT Infrastructure</a></li>
-                        <li><a class="mobile-dropdown-item" href="#">Advisory and Consultancy</a></li>
+                        <li><a class="mobile-dropdown-item" href="../services/consultancyAndAdvisory/indexx.html">Advisory and Consultancy</a></li>
                         <li><a class="mobile-dropdown-item" href="../services/trainingAndDevelopment/index.html">Training and Devlopment</a></li>
                   
                       </ul>
@@ -399,7 +400,7 @@ class serviceheader2 extends HTMLElement {
                                 <li><a href="#">Software-Devlopment and Testing</a></li>
                                 <li><a href="#">Automation</a></li>
                                  <li><a href="../services/it&infrastructure/index.html">IT Infrastructure Services</a></li>
-                                <li><a href="#">Advisory and Consultancy</a></li>
+                                <li><a href="../services/consultancyAndAdvisory/indexx.html">Advisory and Consultancy</a></li>
                                 <li><a href="../services/trainingAndDevelopment/index.html">Training and Devlopment</a></li>
       
                               </ul>
@@ -501,7 +502,7 @@ class serviceheader extends HTMLElement {
                   <li><a class="mobile-dropdown-item" href="../../services/cloudT&S/index.html">Cloud Transformation and Services</a></li>
                   <li><a class="mobile-dropdown-item" href="#">Automation</a></li>
                   <li><a class="mobile-dropdown-item" href="../../services/it&infrastructure/index.html">IT Infrastructure</a></li>
-                  <li><a class="mobile-dropdown-item" href="#">Advisory and Consultancy</a></li>
+                  <li><a class="mobile-dropdown-item" href="../../services/consultancyAndAdvisory/indexx.html">Advisory and Consultancy</a></li>
                   <li><a class="mobile-dropdown-item" href="../../services/trainingAndDevelopment/index.html">Training and Development</a></li>
                 </ul>
               </li>
@@ -604,7 +605,7 @@ class serviceheader extends HTMLElement {
                           <li><a href="../../services/cloudT&S/index.html">Cloud Transformation and Services</a></li>
                           <li><a href="#">Automation</a></li>
                           <li><a href="../../services/it&infrastructure/index.html">IT Infrastructure</a></li>
-                          <li><a href="#">Advisory and Consultancy</a></li>
+                          <li><a href="../../services/consultancyAndAdvisory/indexx.html">Advisory and Consultancy</a></li>
                           <li><a href="../../services/trainingAndDevelopment/index.html">Training and Development</a></li>
 
                         </ul>

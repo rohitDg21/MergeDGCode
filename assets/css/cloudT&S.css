@@ -191,7 +191,7 @@ h1{
 
 
 .paraImg{
-    border-radius: 50%;
+    /* border-radius: 50%; */
     width: 20vw;
     height: 20vw;
 }
@@ -203,6 +203,7 @@ h1{
     align-items: center;
     
 }
+
 
 
 .imgImg{
