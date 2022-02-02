@@ -1,0 +1,271 @@
+.header-black::before{
+    content: "";
+    background: url("../images/datascience/fabio-oyXis2kALVg-unsplash.jpg") no-repeat center center/cover;
+    position: absolute;
+    background-size: cover;
+    width: 100%;
+    height: 100%; 
+    z-index: -1;
+    top: 0;
+    left: 0;
+    opacity:0.85;
+}
+
+
+
+.sectiontwo{
+    padding: 8vw;
+}
+
+.sectionTwoImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.titlePara{
+    font-size: 3vw;
+    text-align: center;
+    font-weight: 700;
+}
+
+.graphImg{
+    width: 60%;
+}
+
+.graphImg2 {
+    width: 75%;
+}
+
+
+.subtitlePara{
+
+    font-size: 2vw;
+    text-align: center;
+    padding: 4vw;
+    color: #6698cb;
+    font-weight: 600;
+}
+
+.row{
+    justify-content: space-between;
+}
+
+.line{
+    border-left: 5vw solid black;
+    height: 2vh;
+}
+
+.hideGroup{
+
+    display: none;
+}
+
+
+
+.bgImageContainer{
+    height: 85vh;
+}
+
+
+.banner-main {
+    margin-top: -37ftrr 0px;
+}
+
+
+.banner-main .page-title1 {
+    font-size: 10vh;
+    color: #fff;
+    line-height: 1;
+    padding-right: 6vw;
+    letter-spacing: 2px;
+    opacity: 1;
+}
+
+
+.serviceImage{
+    width: 25vw;
+}
+
+
+.serviceTitle{
+    font-size: 2vw;
+    text-align: center;
+}
+
+.para{
+    background-color: white;
+    text-align: justify;
+    font-size: 5vh;
+    padding: 0vw 8vw 2vh 8vw;
+    line-height: 1.4;
+}
+
+.para1{
+    padding-top: 12vh;
+
+}
+
+.banner-main {
+    margin-top: -56vh !important;
+}
+
+.paraTitle{
+    background: white;
+    font-size: 5vh;
+    text-align: center;
+    padding-top: 3vw;
+}
+
+.service{
+    display: flex;
+    margin: 0 9vw;
+}
+
+.service2{
+    margin: 3vw;
+}
+
+.service1{
+    margin: 3vw;
+    margin-top: 18vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.service3{
+    margin: 3vw;
+    margin-top: 7vw;
+    margin-top: 18vw;
+
+}
+
+.ser{
+    margin-bottom: 6vw;
+    cursor: pointer;
+}
+
+
+.ciscoCourse{
+    /* font-size: 2vw; */
+    color: #6f6f9b;
+    /* box-shadow: 3px 3px 7px -5px black; */
+
+  color: #fff;
+  background: linear-gradient(to right, #6f6f9b 0, #fff 10%, #6f6f9b 20%);
+  background-position: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 2s infinite linear;
+  animation-fill-mode: forwards;
+  -webkit-text-size-adjust: none;
+  text-decoration: none;
+}
+
+
+@keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 20vw;
+    }
+    100% {
+      background-position: 40vw;
+    }
+}
+
+/* .para2{
+
+    font-size: 2.2vw;
+} */
+
+
+
+
+
+.btn {
+    padding: 1em 4.1em 1.1em;
+    border-radius: 3px;
+    margin: 15px 8px 8px 8px;
+    color: #fbdedb;
+    background-color: #fbdedb;
+    display: inline-block;
+    background: #e74c3c;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0em -0.3rem 0em rgb(0 0 0 / 10%) inset;
+    -moz-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0em -0.3rem 0em rgb(0 0 0 / 10%) inset;
+    position: relative;
+}
+.btn:hover, .btn:focus {
+    opacity: 0.8;
+}
+.btn:active {
+    -webkit-transform: scale(0.80);
+    -moz-transform: scale(0.80);
+    -ms-transform: scale(0.80);
+    -o-transform: scale(0.80);
+    transform: scale(0.80);
+}
+.btn.block {
+    display: block !important;
+}
+.btn.circular {
+  border-radius: 50em !important;
+}
+
+.sky {
+    background-color: #6698cb;
+}
+
+
+.btnContact{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+@media screen and (max-width:500px)  {
+    .service{
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .service2, .service1, .service3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 4vw 1vw;
+    }
+
+    .ser{
+        margin: 0;
+        width: 14vh;
+        width: 16vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .serviceTitle{
+        font-size: 1.6vh;
+    }
+    
+    
+}
