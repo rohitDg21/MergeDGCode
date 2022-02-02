@@ -12,9 +12,23 @@
 }
 
 
+.titleP{
+    color: white;
+    margin-bottom: 4vw;
+}
 
 .sectiontwo{
     padding: 8vw;
+    
+    background: #c7bcbb4a;
+    margin-top: 5vw;
+
+}
+
+.sectionThree{
+    margin-top: 0;
+
+    background-color: rgb(55, 0, 255);
 }
 
 .sectionTwoImg{
@@ -75,7 +89,7 @@
 
 
 .banner-main .page-title1 {
-    font-size: 10vh;
+    font-size: 9vh;
     color: #fff;
     line-height: 1;
     padding-right: 6vw;
@@ -108,7 +122,7 @@
 }
 
 .banner-main {
-    margin-top: -56vh !important;
+    margin-top: -63vh !important;
 }
 
 .paraTitle{

@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins', sans-serif;
+}
+.page-header-ui {
+    position: relative;
+}
+.aos-init{
+    padding-top:80px;
+}
+.aos-init h1{
+    font-size: 2.625em;
+    font-weight:bolder;
+}
+.aos-init p{
+    color: #fff;
+    font-weight: bolder;
+}
+@media only screen and (max-width: 767px){
+    .aos-init{
+        margin-top:28px;
+    }
+    .aos-init h1{
+        font-size: 1.625em;
+    }
+}
+.aos-init img{
+    position:relative;
+    animation: animate 3s ease-in-out infinite;
+}
+@keyframes animate{
+    0%, 100%{
+        bottom: 0;
+    }
+    60%{
+        bottom: 60px;
+    }
+
+}
+.bg-gradient-primary-to-secondary {
+    background-color: #000000 !important;
+    background-image: linear-gradient(
+135deg
+, #9ec2f8 0%, rgba(105, 0, 199, 0.8) 100%) !important;
+}
+.pt-10 {
+    padding-top: 0rem !important;
+}
+.px-5 {
+    padding-right: 2.5rem !important;
+    padding-left: 2.5rem !important;
+}
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.fw-500 {
+    font-weight: 500 !important;
+}
+.me-2 {
+    margin-right: 0.5rem !important;
+}
+.btn-teal {
+    color: #fff;
+    background-color: #00ba94;
+    border-color: #00ba94;
+}
+.bg-white {
+    --bs-bg-opacity: 1;
+    background-color: #4395ff;
+}
+.cards{
+    padding: 30px;
+}
+.cards h1{
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: bolder;
+}
+.cards p{
+    text-align: center;
+    font-size: 1.25;
+}
+@media only screen and (max-width: 767px){
+    .cards h1{
+        text-align: center;
+        font-size: 1.25rem;
+        font-weight: bolder;
+    }
+}
+.icon-stack-xl {
+    height: 5rem;
+    width: 5rem;
+    font-size: 1.75rem;
+}
+.icon-stack {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    height: 5.5rem;
+    width: 5.5rem;
+    font-size: 1rem;
+    background-color: #f2f6fc;
+    flex-shrink: 0;
+}
+.whydg{
+    text-align: center;
+    color: #fff;
+}
+.whydg h1{
+    font-weight: 700;
+    font-size: 3.625em;
+}
+@media only screen and (max-width: 767px){
+    .whydg h1{
+        font-weight: 700;
+        font-size: 1.625em;
+    }
+}
+.aos-init .lead{
+    color: #000000;
+}
+.page-section h2.section-heading, .page-section .section-heading.h2 {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+#portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
+    font-size: 1.5rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    margin-bottom: 0;
+    text-align: center;
+}
+.copy-right{
+    text-align: right;
+    margin-top: -30px;
+}
