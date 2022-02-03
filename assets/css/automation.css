@@ -10,7 +10,7 @@
     padding-top:80px;
 }
 .aos-init h1{
-    font-size: 2.625em;
+    font-size: 2em;
     font-weight:bolder;
 }
 .aos-init p{
@@ -35,6 +35,23 @@
     }
     60%{
         bottom: 60px;
+    }
+
+}
+
+
+.rolaRobo{
+    position:relative;
+    animation: animate2 3s ease-in-out infinite !important;
+
+}
+
+@keyframes animate2{
+    0%, 100%{
+        left: 0;
+    }
+    60%{
+        left: 60px;
     }
 
 }
@@ -73,6 +90,7 @@
 }
 .cards{
     padding: 30px;
+    padding-top: 100px;
 }
 .cards h1{
     text-align: center;
