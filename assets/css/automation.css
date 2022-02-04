@@ -10,7 +10,7 @@
     padding-top:80px;
 }
 .aos-init h1{
-    font-size: 2em;
+    font-size: 1.625em;
     font-weight:bolder;
 }
 .aos-init p{
@@ -35,23 +35,6 @@
     }
     60%{
         bottom: 60px;
-    }
-
-}
-
-
-.rolaRobo{
-    position:relative;
-    animation: animate2 3s ease-in-out infinite !important;
-
-}
-
-@keyframes animate2{
-    0%, 100%{
-        left: 0;
-    }
-    60%{
-        left: 60px;
     }
 
 }
@@ -90,16 +73,16 @@
 }
 .cards{
     padding: 30px;
-    padding-top: 100px;
 }
 .cards h1{
     text-align: center;
-    font-size: 2.25rem;
+    font-size: 3.25rem;
     font-weight: bolder;
 }
 .cards p{
     text-align: center;
-    font-size: 1.25;
+    font-size: 1.25rem;
+    font-weight:bold;
 }
 @media only screen and (max-width: 767px){
     .cards h1{
@@ -118,8 +101,8 @@
     justify-content: center;
     align-items: center;
     border-radius: 100%;
-    height: 5.5rem;
-    width: 5.5rem;
+    height: 8.5rem;
+    width: 9.5rem;
     font-size: 1rem;
     background-color: #f2f6fc;
     flex-shrink: 0;
@@ -141,6 +124,9 @@
 .aos-init .lead{
     color: #000000;
 }
+#portfolio h2{
+    padding-top: 40px;
+}
 .page-section h2.section-heading, .page-section .section-heading.h2 {
     font-size: 2.5rem;
     margin-top: 0;
@@ -156,4 +142,18 @@
 .copy-right{
     text-align: right;
     margin-top: -30px;
+}
+.four-icon{
+    margin-top: -100px;
+}
+.right-part{
+    margin-top: -20px;
+}
+.four-para h6{
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.four-para p{
+    font-size: 0.75rem;
+    color: #585252;
 }

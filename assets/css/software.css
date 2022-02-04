@@ -7,16 +7,6 @@ body{
     background-color:#292C45;
     font-family:'Work Sans', sans-serif;
 }
-
-
-.content-area{
-    font-size: 1.4vw;
-}
-
-
-.container{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
 .row1 {
     display: -ms-flexbox;
     display: flex;

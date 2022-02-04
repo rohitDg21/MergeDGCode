@@ -16,6 +16,10 @@
     background-repeat: no-repeat;
 }
 
+.logo-light{
+    display: none !important;
+}
+
 .row{
     justify-content: space-between;
     

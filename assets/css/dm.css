@@ -149,7 +149,7 @@ ul.products, .slider-wrapper, .vc_section, .gallery {
     font-size: 40px;
     text-align: center;
 }
-@media (max-width: 1920px){
+@media (max-width: 1920px)
 .accordion-wrap .panel-default .panel-body {
     font-size: 16px;
     line-height: 1.5;
@@ -232,7 +232,7 @@ ul.products, .slider-wrapper, .vc_section, .gallery {
     letter-spacing: 0.3px;
     font-family: 'CircularStd';
 }
-[data-aos][data-aos][data-aos-duration="1500"], body[data-aos-duration="1500"] [data-aos] {
+data-aos][data-aos][data-aos-duration="1500"], body[data-aos-duration="1500"] [data-aos] {
     transition-duration: 1s;
 }
 
@@ -250,4 +250,3 @@ img, video {
 }
 
 
-}

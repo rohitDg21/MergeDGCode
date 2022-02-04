@@ -15,6 +15,10 @@
     padding: 3vw;
 }
 
+
+.logo-light{
+    display: none !important;
+}
 .paras{
     padding-top: 11vw;
 }
@@ -113,6 +117,28 @@
 .facts_items.mobile {
     display: none
 }
+
+
+.pppp{
+    font-size: 4vw !important;
+    margin-bottom: 2vw;
+}
+
+.home-title span {
+    overflow: visible;
+}
+
+
+.home-title span::after{
+    animation: none !important;
+}
+
+
+
+.home-title span::before{
+    animation: none !important;
+}
+
 
 .search_dropdown {
     display: flex;

@@ -11,6 +11,10 @@
     opacity:0.85;
 }
 
+
+.logo-light{
+    display: none !important;
+}
 .titleP{
     color: white;
     margin-bottom: 4vw;
@@ -88,10 +92,10 @@
 
 
 .banner-main .page-title1 {
-    font-size: 9vh;
+    font-size: 7vh;
     color: #fff;
     line-height: 1;
-    padding-right: 6vw;
+    padding-right: 10vw;
     letter-spacing: 2px;
     opacity: 1;
 }
